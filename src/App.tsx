@@ -1,9 +1,10 @@
 import React, {useState, useEffect} from 'react';
 
 import type {PropsWithChildren} from 'react';
-import { ActivityIndicator, SafeAreaView,StatusBar, StyleSheet, Text } from 'react-native';
+import { ActivityIndicator, SafeAreaView,StatusBar, StyleSheet, Text, View } from 'react-native';
 
 import {setupPlayer, addTrack} from "../musicPlayerServies"
+import MusicPlayer from './screens/MusicPlayer';
 
 
 function App(): React.JSX.Element {
@@ -35,13 +36,11 @@ function App(): React.JSX.Element {
   }
  
   return (
-    <SafeAreaView >
-      <StatusBar
-      />
-      <Text>Testing seems ok </Text>
-     
-      
-    </SafeAreaView>
+    <View style={styles.container}>
+      <StatusBar  barStyle={"light-content"}/>
+      <MusicPlayer />
+    </View>
+
   );
 }
 

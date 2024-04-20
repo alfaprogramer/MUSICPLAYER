@@ -3,29 +3,29 @@ import { Track } from "react-native-track-player";
 export const playListData: Track[] = [
     {
         id: 1,
-        title: 'Maan Meri Jaan',
-        artist: 'King',
-        album: 'Champagne Talk',
+        title: 'Baila Conmigo',
+        artist: 'Selena Gomez & Rauw Alejandro',
+        album: 'Revelación',
         artwork:
-          'https://c.saavncdn.com/734/Champagne-Talk-Hindi-2022-20221008011951-500x500.jpg',
+          'https://en.wikipedia.org/wiki/Baila_Conmigo_%28Selena_Gomez_and_Rauw_Alejandro_song%29#/media/File:Selena_Gomez_and_Rauw_Alejandro_-_Baila_Conmigo.png',
         url: require('./assets/audio/conmigo.mp3'),
       },
       {
         id: 2,
-        title: 'Raataan Lambiyan',
-        artist: 'Tanishk Bagchi, Asees Kaur',
-        album: 'Shershaah',
+        title: 'Gimme More',
+        artist: 'Britney Spears',
+        album: 'Blackout',
         artwork:
-          'https://c.saavncdn.com/238/Shershaah-Original-Motion-Picture-Soundtrack--Hindi-2021-20210815181610-500x500.jpg',
+          'https://www.remixedbynick.com/_assets/img/remixes/britney-spears-gimme-more-nick-midnight-fm-remix.jpg',
         url: require('./assets/audio/gimmemore.mp3'),
       },
       {
         id: 3,
-        title: 'Kesariya',
-        artist: 'Arijit Singh, Amitabh Bhattacharya',
-        album: 'Brahmastra',
+        title: 'Talk',
+        artist: 'Retronaut and Salvatore Ganacc',
+        album: 'Talk',
         artwork:
-          'https://c.saavncdn.com/191/Kesariya-From-Brahmastra-Hindi-2022-20220717092820-500x500.jpg',
+          'https://i.pinimg.com/originals/e9/0a/6c/e90a6c92daacc80783618ba9aa850a89.jpg',
         url: require('./assets/audio/issues.mp3'),
       },
       {
@@ -39,29 +39,29 @@ export const playListData: Track[] = [
       },
       {
         id: 5,
-        title: 'Besharam Rang',
-        artist: 'Vishal & Shekhar, Shilpa Rao',
-        album: 'Pathaan',
+        title: 'Swim',
+        artist: 'Chase Atlantic',
+        album: 'Chase Atlantic',
         artwork:
-          'https://c.saavncdn.com/807/Pathaan-Hindi-2022-20221222104158-500x500.jpg',
+          'https://i1.sndcdn.com/artworks-9Ba0GITiZga2WJaQ-KsjN0g-t500x500.jpg',
         url: require('./assets/audio/swim.mp3'),
       },
       {
         id: 6,
-        title: 'Besharam Rang',
-        artist: 'Vishal & Shekhar, Shilpa Rao',
-        album: 'Pathaan',
+        title: 'Under The Influence',
+        artist: 'Chris Brown',
+        album: 'Chris Brown',
         artwork:
-          'https://c.saavncdn.com/807/Pathaan-Hindi-2022-20221222104158-500x500.jpg',
+          'https://i1.sndcdn.com/artworks-O2UgTjlqwJrZFp6b-2UgQiA-t500x500.jpg',
         url: require('./assets/audio/under.mp3'),
       },
       {
         id: 7,
-        title: 'Besharam Rang',
-        artist: 'Vishal & Shekhar, Shilpa Rao',
-        album: 'Pathaan',
+        title: 'Yad',
+        artist: 'Erika Lundmoen',
+        album: 'Yad',
         artwork:
-          'https://c.saavncdn.com/807/Pathaan-Hindi-2022-20221222104158-500x500.jpg',
+          'https://i.pinimg.com/564x/d4/76/cd/d476cd77ffa354286650b9dd13418853.jpg',
         url: require('./assets/audio/yadd.mp3'),
       },
 

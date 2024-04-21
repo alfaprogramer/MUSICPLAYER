@@ -65,5 +65,5 @@ export const playListData: Track[] = [
         url: require('./assets/audio/yadd.mp3'),
       },
 
-]
+];
 

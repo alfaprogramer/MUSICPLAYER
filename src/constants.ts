@@ -53,7 +53,7 @@ export const playListData: Track[] = [
         album: 'Chris Brown',
         artwork:
           'https://i1.sndcdn.com/artworks-O2UgTjlqwJrZFp6b-2UgQiA-t500x500.jpg',
-        url: require('./assets/audio/under.mp3'),
+        url: require('./assets/audio/nder.mp3'),
       },
       {
         id: 7,
@@ -65,5 +65,4 @@ export const playListData: Track[] = [
         url: require('./assets/audio/yadd.mp3'),
       },
 
-]
-
+];

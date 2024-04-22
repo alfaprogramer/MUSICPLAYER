@@ -17,10 +17,10 @@ const SongSlider = ()=> {
             />
 
             <View style={styles.timeContainer}>
-                <Text style={styles.timeContainer}>
+                <Text style={styles.time}>
                     {new Date(position*1000).toISOString().substring(15,19)}
                 </Text>
-                <Text style={styles.timeContainer}>
+                <Text style={styles.time}>
                     {new Date((duration-position)*1000).toISOString().substring(15,19)}
                 </Text>
             </View>
@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
       justifyContent: 'space-between',
     },
     time: {
-      color: '#fff',
+      color: 'white',
     },
   });
 

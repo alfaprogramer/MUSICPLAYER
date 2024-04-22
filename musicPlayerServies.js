@@ -8,7 +8,7 @@ export async function setupPlayer(){
       await TrackPlayer.getCurrentTrack()
       isSetup = true
     } catch (error) {
-        await TrackPlayer.setupPlayer
+        await TrackPlayer.setupPlayer()
         isSetup = true
     } finally {
         return isSetup;

@@ -7,7 +7,7 @@ export const playListData: Track[] = [
         artist: 'Selena Gomez & Rauw Alejandro',
         album: 'Revelación',
         artwork:
-          'https://en.wikipedia.org/wiki/Baila_Conmigo_%28Selena_Gomez_and_Rauw_Alejandro_song%29#/media/File:Selena_Gomez_and_Rauw_Alejandro_-_Baila_Conmigo.png',
+          'https://i1.sndcdn.com/artworks-EyS3rJobbVT7w4TB-lRzOdw-t500x500.jpg',
         url: require('./assets/audio/conmigo.mp3'),
       },
       {
@@ -30,11 +30,11 @@ export const playListData: Track[] = [
       },
       {
         id: 4,
-        title: 'Title Track',
-        artist: 'Arijit Singh, Parampara Tandon',
-        album: 'Pal Pal Dil Ke Paas',
+        title: 'ohh Na Na',
+        artist: 'Trey Songz',
+        album: 'Trey Songz',
         artwork:
-          'https://c.saavncdn.com/328/Pal-Pal-Dil-Ke-Paas-Hindi-2019-20200420150444-500x500.jpg',
+          'https://i.ytimg.com/vi/OtwX6MybxiY/maxresdefault.jpg',
         url: require('./assets/audio/nana.mp3'),
       },
       {
